@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: BootCamp Sysmap 2024 - Sameque Ananias
+
+server:
+  servlet:
+    context-path: /api
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
