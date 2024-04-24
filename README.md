@@ -28,7 +28,7 @@ Clone this repository to your local environment.
 - Make sure you have Docker installed on your machine.
 - Open the application.yml file in the src/main/resources folder and configure the Postgres database access information.
 ## API Documentation:
-- API documentation is available using Swagger. After launching the project locally, go to http://localhost:8080/swagger-ui.html to view the documentation and interact with the API endpoints.
+- API documentation is available using Swagger. After launching the project locally, go to http://localhost:8080/swagger-ui.html (API-USER) end http://localhost:8082/swagger-ui.html (APP-INTEGRATION) to view the documentation and interact with the API endpoints.
 ## How to execute the project:
 - Build the project using Maven: mvn clean install.
 - Run the Spring Boot project: mvn spring-boot:run.
