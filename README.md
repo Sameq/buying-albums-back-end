@@ -30,6 +30,13 @@ Clone this repository to your local environment.
 ## API Documentation:
 - API documentation is available using Swagger. After launching the project locally, go to http://localhost:8080/swagger-ui.html (API-USER) end http://localhost:8082/swagger-ui.html (APP-INTEGRATION) to view the documentation and interact with the API endpoints.
 ## How to execute the project:
+- Commands to download the postgres, app-integration and app-user, rabbitmq images in Docker:
+```bash
+  docker-compose -f docker-compose.yml build
+```
+```bash
+- docker-compose -f docker-compose.yml up
+```
 - Build the project using Maven: mvn clean install.
 - Run the Spring Boot project: mvn spring-boot:run.
 ## License
